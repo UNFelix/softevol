@@ -1,0 +1,29 @@
+@media (max-width: 769px) {
+  .bg-small {
+    visibility: visible !important;
+    z-index: 99;
+  }
+  .bg-big {
+    display: none;
+  }
+  .logo {
+    &-text {
+      display: none;
+      justify-content: center;
+    }
+    & span {
+      display: none;
+    }
+  }
+  .header__item {
+    &-text {
+      display: none;
+    }
+    & span {
+      display: none;
+    }
+  }
+  .header-bottom__text {
+    display: none;
+  }
+}
